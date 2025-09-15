@@ -1,0 +1,22 @@
+{
+    "name": "cline/ide-helper",
+    "autoload": {
+        "psr-4": {
+            "Cline\\IdeHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@cline.sh"
+        }
+    ],
+    "require": {
+        "barryvdh/laravel-ide-helper": "^3.6",
+        "illuminate/database": "^12.28",
+        "spatie/laravel-model-info": "^2.0"
+    },
+    "require-dev": {
+        "cline/php-cs-fixer": "^1.0"
+    }
+}
